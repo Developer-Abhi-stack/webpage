@@ -25,13 +25,16 @@ const NewsLetter = () => {
           <Form className="d-lg-flex">
             <Form.Group controlId="formEmail">
               <Form.Control
-              style={{ width: "600px", padding: '10px'}}
+                style={{ width: "600px", padding: "10px" }}
                 type="email"
                 placeholder="Your email"
                 required
               />
             </Form.Group>
-            <Button style={{background: '#96BB7C', border: 'none'}} type="submit">
+            <Button
+              style={{ background: "#96BB7C", border: "none" }}
+              type="submit"
+            >
               Subscribe
             </Button>
           </Form>

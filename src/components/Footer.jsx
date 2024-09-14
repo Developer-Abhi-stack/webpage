@@ -48,19 +48,38 @@ const Footer = () => {
           <Col md={4} className="fw-bold">
             <h5 className="fw-bold">Get In Touch</h5>
             <div style={{ color: "#737373" }}>
-              <span className="d-flex justify-content-start gap-2"><FiPhone style={{fontSize: '25px', color: '#96BB7C'}}/><p>(480) 555-0103</p></span>
-              <span className="d-flex justify-content-start gap-2"><IoLocationOutline style={{fontSize: '25px', color: '#96BB7C'}} /><p>4517 Washington Ave. Manchester,<br /> Kentucky 39495</p></span>
-              <span className="d-flex justify-content-start gap-2">< MdEmail style={{fontSize: '25px', color: '#96BB7C'}} /><p>debra.holt@example.com</p></span>
+              <span className="d-flex justify-content-start gap-2">
+                <FiPhone style={{ fontSize: "25px", color: "#96BB7C" }} />
+                <p>(480) 555-0103</p>
+              </span>
+              <span className="d-flex justify-content-start gap-2">
+                <IoLocationOutline
+                  style={{ fontSize: "25px", color: "#96BB7C" }}
+                />
+                <p>
+                  4517 Washington Ave. Manchester,
+                  <br /> Kentucky 39495
+                </p>
+              </span>
+              <span className="d-flex justify-content-start gap-2">
+                <MdEmail style={{ fontSize: "25px", color: "#96BB7C" }} />
+                <p>debra.holt@example.com</p>
+              </span>
             </div>
           </Col>
         </Row>
         <Row className="bg-light text-dark">
-          <Col className="mt-3 d-flex justify-content-around" >
-            <p className="fw-bold">Made With Love By Figmaland All Right Reserved </p>
-            <div style={{fontSize: '25px', color: '#96BB7C'}} className="d-flex gap-3">
-                <FaFacebook />
-                <FaInstagram />
-                <FaTwitter />
+          <Col className="mt-3 d-flex justify-content-around">
+            <p className="fw-bold">
+              Made With Love By Figmaland All Right Reserved{" "}
+            </p>
+            <div
+              style={{ fontSize: "25px", color: "#96BB7C" }}
+              className="d-flex gap-3"
+            >
+              <FaFacebook />
+              <FaInstagram />
+              <FaTwitter />
             </div>
           </Col>
         </Row>

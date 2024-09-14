@@ -26,9 +26,33 @@ const Team = () => {
               <Card.Title className="fw-bold">Julian Jameson</Card.Title>
               <Card.Text className="fw-bold">Profession</Card.Text>
               <div className="d-lg-flex gap-2 justify-content-center">
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaFacebook /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaInstagram /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaTwitter /></button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaFacebook />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaInstagram />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaTwitter />
+                </button>
               </div>
             </Card.Body>
           </Card>
@@ -39,9 +63,33 @@ const Team = () => {
               <Card.Title className="fw-bold">Julian Jameson</Card.Title>
               <Card.Text className="fw-bold">Profession</Card.Text>
               <div className="d-lg-flex gap-2 justify-content-center">
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaFacebook /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaInstagram /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaTwitter /></button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaFacebook />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaInstagram />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaTwitter />
+                </button>
               </div>
             </Card.Body>
           </Card>
@@ -52,9 +100,33 @@ const Team = () => {
               <Card.Title className="fw-bold">Julian Jameson</Card.Title>
               <Card.Text className="fw-bold">Profession</Card.Text>
               <div className="d-lg-flex gap-2 justify-content-center">
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaFacebook /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaInstagram /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaTwitter /></button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaFacebook />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaInstagram />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaTwitter />
+                </button>
               </div>
             </Card.Body>
           </Card>
@@ -65,9 +137,33 @@ const Team = () => {
               <Card.Title className="fw-bold">Julian Jameson</Card.Title>
               <Card.Text className="fw-bold">Profession</Card.Text>
               <div className="d-lg-flex gap-2 justify-content-center">
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaFacebook /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaInstagram /></button>
-              <button style={{ color: '#96BB7C', border: 'none', background: 'transparent'}}><FaTwitter /></button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaFacebook />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaInstagram />
+                </button>
+                <button
+                  style={{
+                    color: "#96BB7C",
+                    border: "none",
+                    background: "transparent",
+                  }}
+                >
+                  <FaTwitter />
+                </button>
               </div>
             </Card.Body>
           </Card>

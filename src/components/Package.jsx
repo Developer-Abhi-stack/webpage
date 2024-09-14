@@ -41,7 +41,6 @@ const Package = () => {
                 </p>
               </div>
 
-
               <div className="d-lg-flex flex-column gap-3 shadow-lg p-4 w-50">
                 <div
                   className="px-2 py-4  rounded-2 d-lg-flex justify-content-center align-items-center w-50 "
