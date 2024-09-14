@@ -5,9 +5,9 @@ import { CiMonitor } from "react-icons/ci";
 const Package = () => {
   return (
     <div>
-      <Container className="m-5">
-        <Row className="p-5">
-          <Col className="m-5">
+      <Container className="my-5 mx-lg-5">
+        <Row className="my-lg-5">
+          <Col>
             <Container className="d-lg-flex flex-column gap-4">
               <div
                 style={{ height: "10px", width: "150px", background: "red" }}
