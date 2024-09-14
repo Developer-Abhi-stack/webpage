@@ -1,11 +1,12 @@
-import NavbarComponent from "./components/NavbarComponent"
+import MainComponent from "./components/MainComponent"
+
 
 
 
 const App = () => {
   return (
     <div>
-   <NavbarComponent />
+   <MainComponent />
     </div>
   )
 }

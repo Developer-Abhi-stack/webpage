@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const NavbarComponent = () => {
   return (
-    <Navbar bg="light" >
+    <Navbar bg="transparent" >
       <Container className='"d-flex justify-content-between'>
         <Navbar.Brand href="#home" className='fw-bold fs-3'>Brandname</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
