@@ -5,7 +5,10 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Team = () => {
   return (
     <div>
+      {/* Main container for the team section */}
       <Container className="my-5">
+        
+        {/* Header section */}
         <div className="my-5 text-center">
           <p style={{ color: "#96BB7C" }} className="fw-bold fs-4">
             Team
@@ -15,11 +18,13 @@ const Team = () => {
           </h3>
           <p style={{ color: "#737373" }} className="fw-bolder">
             Problems trying to resolve the conflict between <br />
-            the two major realms of Classical physics: Newtonian mechanics{" "}
+            the two major realms of Classical physics: Newtonian mechanics
           </p>
         </div>
 
+        {/* Grid for team member cards */}
         <div className="row">
+          {/* Each team member card */}
           <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
             <Card className="rounded-5 text-center w-100">
               <Card.Img variant="top" src={image} className="img-fluid" />
@@ -27,6 +32,7 @@ const Team = () => {
                 <Card.Title className="fw-bold">Julian Jameson</Card.Title>
                 <Card.Text className="fw-bold">Profession</Card.Text>
                 <div className="d-flex gap-2 justify-content-center">
+                  {/* Social media buttons */}
                   <button
                     style={{
                       color: "#96BB7C",
@@ -59,6 +65,7 @@ const Team = () => {
             </Card>
           </div>
 
+          {/* Repeat the card for other team members */}
           <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
             <Card className="rounded-5 text-center w-100">
               <Card.Img variant="top" src={image} className="img-fluid" />
