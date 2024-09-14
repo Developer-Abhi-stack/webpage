@@ -1,7 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import NavbarComponent from "./NavbarComponent";
 import bg from '../assets/bg.svg'
-import girl from '../assets/girl.png'
 
 const MainComponent = () => {
   return (
