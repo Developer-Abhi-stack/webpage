@@ -1,10 +1,11 @@
-import Navbar from "./components/Navbar"
+import NavbarComponent from "./components/NavbarComponent"
+
 
 
 const App = () => {
   return (
     <div>
-    <Navbar />
+   <NavbarComponent />
     </div>
   )
 }
