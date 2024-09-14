@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import MainComponent from "./components/MainComponent"
 import NewsLetter from "./components/NewsLetter"
 import Package from "./components/Package"
@@ -13,6 +14,7 @@ const App = () => {
    <Package />
    <Team />
    <NewsLetter />
+   <Footer />
     </div>
   )
 }

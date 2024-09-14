@@ -25,7 +25,7 @@ const Package = () => {
           </Col>
           <Col className="m-5">
             <Container className="d-lg-flex flex-row gap-3">
-              <div className="d-lg-flex flex-column gap-3 shadow-lg p-4">
+              <div className="d-lg-flex flex-column gap-3 shadow-lg p-4 w-50">
                 <div
                   className="px-2 py-4  rounded-2 d-lg-flex justify-content-center align-items-center w-50 "
                   style={{ background: "#96BB7C" }}
@@ -42,7 +42,7 @@ const Package = () => {
               </div>
 
 
-              <div className="d-lg-flex flex-column gap-3 shadow-lg p-4">
+              <div className="d-lg-flex flex-column gap-3 shadow-lg p-4 w-50">
                 <div
                   className="px-2 py-4  rounded-2 d-lg-flex justify-content-center align-items-center w-50 "
                   style={{ background: "#96BB7C" }}
