@@ -1,4 +1,5 @@
 import MainComponent from "./components/MainComponent"
+import NewsLetter from "./components/NewsLetter"
 import Package from "./components/Package"
 import Team from "./components/Team"
 
@@ -11,6 +12,7 @@ const App = () => {
    <MainComponent />
    <Package />
    <Team />
+   <NewsLetter />
     </div>
   )
 }
