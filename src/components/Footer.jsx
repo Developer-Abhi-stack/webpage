@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="text-dark py-4 mt-auto">
       <Container>
         <Row>
-          <Col md={2} className="fw-bold">
+          <Col xs={12} md={2} className="fw-bold mb-3">
             <h5 className="fw-bold">Company Info</h5>
             <div style={{ color: "#737373" }}>
               <p>About Us</p>
@@ -18,7 +18,7 @@ const Footer = () => {
               <p>Blog</p>
             </div>
           </Col>
-          <Col md={2} className="fw-bold">
+          <Col xs={12} md={2} className="fw-bold mb-3">
             <h5 className="fw-bold">Legal</h5>
             <div style={{ color: "#737373" }}>
               <p>About Us</p>
@@ -27,7 +27,7 @@ const Footer = () => {
               <p>Blog</p>
             </div>
           </Col>
-          <Col md={2} className="fw-bold">
+          <Col xs={12} md={2} className="fw-bold mb-3">
             <h5 className="fw-bold">Features</h5>
             <div style={{ color: "#737373" }}>
               <p>Business Marketing</p>
@@ -36,7 +36,7 @@ const Footer = () => {
               <p>Unlimited Support</p>
             </div>
           </Col>
-          <Col md={2} className="fw-bold">
+          <Col xs={12} md={2} className="fw-bold mb-3">
             <h5 className="fw-bold">Resources</h5>
             <div style={{ color: "#737373" }}>
               <p>IOS & Android</p>
@@ -45,38 +45,33 @@ const Footer = () => {
               <p>API</p>
             </div>
           </Col>
-          <Col md={4} className="fw-bold">
+          <Col xs={12} md={4} className="fw-bold mb-3">
             <h5 className="fw-bold">Get In Touch</h5>
             <div style={{ color: "#737373" }}>
-              <span className="d-flex justify-content-start gap-2">
-                <FiPhone style={{ fontSize: "25px", color: "#96BB7C" }} />
-                <p>(480) 555-0103</p>
-              </span>
-              <span className="d-flex justify-content-start gap-2">
-                <IoLocationOutline
-                  style={{ fontSize: "25px", color: "#96BB7C" }}
-                />
-                <p>
+              <div className="d-flex align-items-center mb-3">
+                <FiPhone style={{ fontSize: "20px", color: "#96BB7C" }} />
+                <p className="mb-0 ms-2">(480) 555-0103</p>
+              </div>
+              <div className="d-flex align-items-center mb-3">
+                <IoLocationOutline style={{ fontSize: "20px", color: "#96BB7C" }} />
+                <p className="mb-0 ms-2">
                   4517 Washington Ave. Manchester,
                   <br /> Kentucky 39495
                 </p>
-              </span>
-              <span className="d-flex justify-content-start gap-2">
-                <MdEmail style={{ fontSize: "25px", color: "#96BB7C" }} />
-                <p>debra.holt@example.com</p>
-              </span>
+              </div>
+              <div className="d-flex align-items-center mb-3">
+                <MdEmail style={{ fontSize: "20px", color: "#96BB7C" }} />
+                <p className="mb-0 ms-2">debra.holt@example.com</p>
+              </div>
             </div>
           </Col>
         </Row>
-        <Row className="bg-light text-dark">
-          <Col className="mt-3 d-flex justify-content-around">
-            <p className="fw-bold">
-              Made With Love By Figmaland All Right Reserved{" "}
+        <Row className="bg-light text-dark pt-3 pb-2">
+          <Col className="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p className="fw-bold mb-2 mb-md-0 fs-6 fs-md-5">
+              Made With Love By Figmaland All Right Reserved
             </p>
-            <div
-              style={{ fontSize: "25px", color: "#96BB7C" }}
-              className="d-flex gap-3"
-            >
+            <div style={{ fontSize: "20px", color: "#96BB7C" }} className="d-flex gap-3 mt-2 mt-md-0">
               <FaFacebook />
               <FaInstagram />
               <FaTwitter />

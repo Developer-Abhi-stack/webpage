@@ -11,23 +11,23 @@ const MainComponent = () => {
             <NavbarComponent />
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <Container className="p-5 d-lg-flex flex-column gap-4">
+        <Row className="align-items-center">
+          <Col xs={12} lg={6}>
+            <Container className="p-3 p-lg-5 d-flex flex-column gap-3 gap-lg-4 text-center text-lg-start">
               <p className="fw-bold" style={{ color: "#96bb7c" }}>
                 Welcome
               </p>
-              <h1 className="display-2 text-capitalize fw-bold">
+              <h1 className="display-4 display-lg-2 text-capitalize fw-bold">
                 Best learning
                 <br /> opportunities
               </h1>
               <h3 style={{ color: "#737373" }} className="">
                 Our goal is to make online <br /> education work for everyone
               </h3>
-              <div>
+              <div className="d-flex flex-column flex-lg-row gap-3">
                 <Button
                   style={{ background: "#96bb7c", border: "none" }}
-                  className="mx-3 px-lg-5 py-lg-3 fs-6 fw-bold"
+                  className="px-4 px-lg-5 py-3 fs-6 fw-bold"
                 >
                   Join Us
                 </Button>
@@ -38,15 +38,15 @@ const MainComponent = () => {
                     color: "#96bb7c",
                   }}
                   variant="transparent"
-                  className="mx-3 py-lg-3 px-lg-5 fs-6 fw-bold"
+                  className="px-4 px-lg-5 py-3 fs-6 fw-bold"
                 >
                   Learn More
                 </Button>
               </div>
             </Container>
           </Col>
-          <Col className="p-5">
-            <img src={bg} style={{ width: "100%" }} />
+          <Col xs={12} lg={6} className="p-3 p-lg-5">
+            <img src={bg} style={{ width: "100%" }} alt="Background" />
           </Col>
         </Row>
       </Container>
